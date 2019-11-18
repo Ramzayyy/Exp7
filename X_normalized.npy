@@ -1,0 +1,6 @@
+import numpy as np
+X = np.random.random((5,5))
+print(X) 
+Xmin, Xmax = X.min(), X.max()
+Z=(X-X.mean())/X.std()
+print(Z)
