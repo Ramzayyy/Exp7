@@ -1,0 +1,7 @@
+import numpy as np
+x=np.arrange(1,10,1)
+y=np.multiply(x,x)
+if y.all()%3==0:
+    print(y)
+else:
+    pass
